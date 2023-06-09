@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.container{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+    
+.icon{
+    height: 60px;
+    color: white;
+}
+ul,li,a{
+    color: white;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(31, 30, 30, 0.24);
+    padding: 20px 30px;
+}
+.nav-list li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    left: 0;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.brand a{
+    text-decoration: none;
+}
+
+/* .brand{
+    font-size: 20px;
+    right: 0;
+    padding: 0;
+} */
+.hero{
+    background-image: url(./image/RITTA.jpg);
+    background-size: cover;
+    height: 800px;
+    margin: 2px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family: sans-serif;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    padding-left: 10px 0;
+    margin: 0;
+    background-color: aqua;
+
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: white;
+}
+body{
+    background-color: white;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    padding: 10px;
+    margin: 30px;
+    height: 100vh;
+}
+
+.face-card2{
+    height: 400px; 
+    background: #f0f0f0;
+    margin:10px;
+    padding: 20px 15px;
+    display: flex ;
+    flex-direction: column;
+    box-shadow:10px #e6e6e6;
+    transition: 0.3s ease-in-out ;
+    background-color: aqua;
+}
+
+img{
+    width: 400px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+}
+
+#king{
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+}
